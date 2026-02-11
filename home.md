@@ -6,7 +6,7 @@ Stand: 11.02.2026
 
 - Modul: Programmieren in C++
 - Betreuung: Prof. Dr. Thomas Wiemann
-- Fachbereich: FB AI - Robotik
+- Fachbereich: AI
 - Autoren: Jatin, Agha, Pascal, Celal, Batu, Merlin, Homan
 
 
