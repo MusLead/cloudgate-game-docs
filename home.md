@@ -2,6 +2,14 @@
 
 Stand: 11.02.2026
 
+## Modul und Team
+
+- Modul: Programmieren in C++
+- Betreuung: Prof. Dr. Thomas Wiemann
+- Fachbereich: FB AI - Robotik
+- Autoren: Jatin, Agha, Pascal, Celal, Batu, Merlin, Homan
+
+
 Dieses Wiki dokumentiert das Projekt **Cloudgate Game** (Qt/QML + SDL2 + C++ + Boost + HDF5) fuer die finale Abgabe.
 
 ## Projektueberblick
