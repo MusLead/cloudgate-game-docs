@@ -20,4 +20,3 @@ Cloudgate ist ein 2D-Jump-and-Run mit:
 - [Level-Editor](Level-Editor)
 - [Technische Architektur](Technische-Architektur)
 - [Dateiformat Level (XML/HDF5)](Dateiformat-Level)
-- [GitLab Wiki Upload](GitLab-Wiki-Upload)
