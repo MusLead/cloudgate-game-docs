@@ -1,17 +1,17 @@
 # Spielanleitung
 
-## Menue
+## Menü
 
 Nach dem Start zeigt `Main.qml` drei Hauptpunkte:
 
 - `Start`: Levelauswahl und Spielstart
 - `LevelEditor`: Editor zum Erstellen/Bearbeiten von Levels
-- `Characters`: Spielfigur auswaehlen
+- `Characters`: Spielfigur auswählen
 
 ## Level starten
 
 1. `Start` klicken.
-2. In `LevelSelector` ein Level aus `res/*.xml` waehlen (ausser `level_master.xml`).
+2. In `LevelSelector` ein Level aus `res/*.xml` wählen (außer `level_master.xml`).
 3. Das Spiel wird in `SecondPage.qml` im `GameView` gestartet.
 
 ## Steuerung im Spiel
@@ -21,7 +21,7 @@ Nach dem Start zeigt `Main.qml` drei Hauptpunkte:
 - `A`: Figur nach links ausrichten
 - `D`: Figur nach rechts ausrichten
 - `P`: Pause
-- `ESC`: Zurueck zur vorherigen Seite
+- `ESC`: Zurück zur vorherigen Seite
 
 ## Zielsystem
 
@@ -37,15 +37,15 @@ Game Over bei:
 
 - HP <= 0
 - Zeitlimit ueberschritten (bei Zeit-Ziel)
-- Spieler faellt in den kritischen unteren Kamerabereich
+- Spieler fällt in den kritischen unteren Kamerabereich
 
 Level beendet bei:
 
-- Erreichen des Ausgangs mit erfuellter Zielbedingung
+- Erreichen des Ausgangs mit erfüllter Zielbedingung
 
 ## Charakterauswahl
 
 In `Characters`:
 
 - Pfeile links/rechts wechseln die Figur.
-- Beim Zurueckgehen (`Back`) wird der Character in allen `res/*.xml` Leveldateien aktualisiert.
+- Beim Zurückgehen (`Back`) wird der Character in allen `res/*.xml` Leveldateien aktualisiert.
