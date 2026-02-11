@@ -1,13 +1,13 @@
 # Level-Editor
 
-## Ueberblick
+## Überblick
 
 Der Editor ist in `qml/LevelEditor.qml` umgesetzt und wird von `LevelEditorController` gesteuert.
 
 Aufbau:
 
 - Links: `TilesetPalette` (Tile-Auswahl)
-- Rechts: `LevelCanvas` (Level-Flaeche)
+- Rechts: `LevelCanvas` (Level-Fläche)
 - Oben: Toolbar (Save/Load/Clear/Background/Rows/Goal/ScrollSpeed)
 
 ## Grund-Workflow
@@ -29,14 +29,14 @@ Aufbau:
 Es gibt zwei Modi:
 
 - Normal (`1x1` Tiles)
-- Extra (`1x2` Tiles), ueber Switch aktivierbar
+- Extra (`1x2` Tiles), über Switch aktivierbar
 
 Beim 1x2-Modus werden zusammengehoerende Tile-Paare gesetzt/entfernt.
 
-## Grid-Groesse
+## Grid-Grösse
 
-- `+ 5 Tile above`: fuegt oben 5 Reihen hinzu
-- `- 5 Tile above`: entfernt oben Reihen (Minimum Hoehe bleibt 25)
+- `+ 5 Tile above`: fügt oben 5 Reihen hinzu
+- `- 5 Tile above`: entfernt oben Reihen (Minimum Höhe bleibt 25)
 
 ## Hintergrund
 
@@ -67,5 +67,5 @@ Beim Speichern wird bei Coin-Ziel der Wert auf maximal vorhandene Coins begrenzt
 
 `Load` laedt:
 
-- XML-Metadaten (Goal, Tilegroessen, Hintergrund etc.)
+- XML-Metadaten (Goal, Tilegrößen, Hintergrund etc.)
 - HDF5-Daten (Tiles + Texturen)
