@@ -12,7 +12,7 @@ Stand: 11.02.2026
 
 Dieses Wiki dokumentiert das Projekt **Cloudgate Game** (Qt/QML + SDL2 + C++ + Boost + HDF5) fuer die finale Abgabe.
 
-## Projektueberblick
+## Projektüberblick
 
 Cloudgate ist ein 2D-Jump-and-Run mit:
 
