@@ -59,3 +59,25 @@ Das Rendering kopiert bei jedem Frame die Pixel vom SDL2-Renderer. Mögliche Opt
 1. **Textur-basiertes Rendering**: Verwende `SDL_Texture` statt `SDL_Surface`
 2. **Framerate-Limitierung**: Reduziere die Update-Rate bei niedriger Priorität
 3. **Pufferung**: Puffere das gerenderte Bild und aktualisiere nur bei Änderungen
+
+## Sicherheits-Fixes
+
+### Grenzprüfungen für Tile-Zugriffe
+
+Um Speicherzugriffsfehler zu vermeiden, wurden Grenzprüfungen für negative Tile-Koordinaten hinzugefügt:
+
+1. **TileArray::get()** (`src/game/TileArray.cpp`): Prüft jetzt auch auf negative Werte (`x >= 0 && y >= 0`)
+2. **TileTree::get()** (`src/game/TileTree.tcc`): Prüft jetzt auch auf negative `pos` Werte (`pos >= 0 && pos < m_numTiles`)
+3. **Physics::resolveCollision()** (`src/game/Physics.cpp`): Prüft jetzt auch auf negative Werte für `f_x`, `f_y`, `d_x`, `d_y`
+
+Diese Fixes verhindern Speicherzugriffsfehler, wenn der Spieler außerhalb des gültigen Tile-Bereichs läuft.
+
+### Level-Grenzen als Kollisionsflächen
+
+Die linken und rechten Ränder des Levels fungieren jetzt als Kollisionsflächen:
+
+- **Linke Grenze**: Der Spieler kann nicht links aus dem Level laufen (X < 0)
+- **Rechte Grenze**: Der Spieler kann nicht rechts aus dem Level laufen (X + Sprite-Breite > Level-Breite)
+- **Geschwindigkeit stoppen**: Wenn der Spieler gegen eine Wand läuft, wird die horizontale Geschwindigkeit auf 0 gesetzt
+
+Implementiert in `Physics::resolveCollision()` (`src/game/Physics.cpp`).
