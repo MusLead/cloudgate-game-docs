@@ -8,6 +8,23 @@
 - `res/`: XML/HDF5 Leveldaten und Assets
 - `ext/HighFive/`: HDF5 C++ Helper
 
+## Level-Dateien
+
+Level werden aus zwei Dateien geladen:
+
+- **level.xml**: XML-Definition mit Level-Konfiguration (Tiles, Actor, Kräfte)
+- **level.h5**: HDF5-Datei mit binären Daten (Texturen, Tile-Maps)
+
+Die Level-Dateien befinden sich im `res/`-Verzeichnis.
+
+### Level-Pfad-Auflösung
+
+Der `GameView` löst den Level-Pfad automatisch auf:
+
+1. Zuerst wird relativ zum ausführbaren Programm gesucht (ein Verzeichnis nach oben, dann `res/level.xml`)
+2. Falls nicht gefunden, wird relativ zum aktuellen Arbeitsverzeichnis gesucht
+3. Falls ein absoluter Pfad angegeben wurde, wird dieser verwendet
+
 ## Hauptkomponenten
 
 1. UI-Schicht (Qt/QML)
