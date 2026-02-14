@@ -12,7 +12,7 @@ Nach dem Start zeigt `Main.qml` drei Hauptpunkte:
 
 1. `Start` klicken.
 2. In `LevelSelector` ein Level aus `res/*.xml` wählen (außer `level_master.xml`).
-3. Das Spiel wird in `SecondPage.qml` im `GameView` gestartet.
+3. Das Spiel wird in `LevelStarter.qml` im `GameView` gestartet.
 
 ## Steuerung im Spiel
 
