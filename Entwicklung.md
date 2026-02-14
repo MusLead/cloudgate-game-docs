@@ -2,7 +2,7 @@
 
 1. Erstelle eine neue `level.xml`-Datei im `res/`-Verzeichnis
 2. Erstelle die entsprechende `level.h5`-Datei mit den Level-Daten
-3. Ändere den `levelPath` in `SecondPage.qml` oder setze ihn programmatisch
+3. Ändere den `levelPath` in `LevelStarter.qml` oder setze ihn programmatisch
 
 ## Anpassen der Spiel-Physik
 
@@ -19,7 +19,7 @@ Die Physik-Parameter können in der `level.xml` angepasst werden:
 Die Spiel-Größe ist fest auf 800x600 Pixel eingestellt. Um sie zu ändern:
 
 1. Ändere `m_gameWidth` und `m_gameHeight` in `GameView.cpp`
-2. Passe die Größe in `SecondPage.qml` an
+2. Passe die Größe in `LevelStarter.qml` an
 
 ## Anpassen der Kamera-Position
 
