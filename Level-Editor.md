@@ -45,6 +45,7 @@ Beim 1x2-Modus werden zusammengehoerende Tile-Paare gesetzt/entfernt.
 - `res/images/backgrounds/`
 
 Der Hintergrundpfad wird in XML als `background_path` gespeichert.
+Wenn weitere Bilder dem Ordner hinzugefügt werden, müssen diese ebenfalls in `res/assets.qrc` hinzugefügt werden, um verwendet werden zu können.
 
 ## Win-Condition und Scroll-Speed
 
