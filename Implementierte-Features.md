@@ -30,7 +30,7 @@
 ### Qt/QML Integration
 
 - **GameView**: `QQuickPaintedItem`, das SDL2 direkt in QML einbettet
-- **SecondPage.qml**: QML-Seite mit eingebettetem Spiel
+- **LevelStarter.qml**: QML-Seite mit eingebettetem Spiel
 - **Tastatur-Event-Handling**: Automatische Konvertierung von Qt- zu SDL-Events
 - **Rendering-Pipeline**: SDL2 → QImage → QML
 
