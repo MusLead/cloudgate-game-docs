@@ -3,7 +3,7 @@
 ## Verzeichnisstruktur (vereinfacht)
 
 - `src/`, `include/`: Qt/QML-Anbindung, Editor-Logik, GameView
-- `qml/`: UI-Seiten (Main, LevelEditor, LevelSelector, Character, SecondPage)
+- `qml/`: UI-Seiten (Main, LevelEditor, LevelSelector, Character, LevelStarter)
 - `game/src/`, `game/include/`: Engine (Level, Physics, Camera, Actor, Parser)
 - `res/`: XML/HDF5 Leveldaten und Assets
 - `ext/HighFive/`: HDF5 C++ Helper
@@ -29,7 +29,7 @@ Der `GameView` löst den Level-Pfad automatisch auf:
 
 1. UI-Schicht (Qt/QML)
 - Navigation per `StackView` (`Main.qml`)
-- Spielseite `SecondPage.qml`
+- Spielseite `LevelStarter.qml`
 - Editorseite `LevelEditor.qml`
 
 2. Glue-Schicht (Qt C++)
@@ -66,5 +66,5 @@ Der `GameView` löst den Level-Pfad automatisch auf:
 
 - SDL wird mit verstecktem Fenster betrieben (`SDL_WINDOW_HIDDEN`).
 - Linux-Fallback auf stabilen Renderpfad (software/basic).
-- Tile-Indizes werden beim Speichern in `level1` um +1 verschoben.
+- Tile-Indizes werden beim Speichern in `level1` um +1 erhöht, damit 0 = kein Tile.
 - Charakterauswahl schreibt den `actor texture="..."` Eintrag in alle Level-XMLs.
