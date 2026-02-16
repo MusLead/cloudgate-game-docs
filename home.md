@@ -10,15 +10,15 @@ Stand: 16.02.2026
 - Autoren: Jatin, Agha, Pascal, Celal, Batu, Merlin, Homan
 
 
-Dieses Wiki dokumentiert das Projekt **Cloudgate Game** (Qt/QML + SDL2 + C++ + Boost + HDF5) fuer die finale Abgabe.
+Dieses Wiki dokumentiert das Projekt **Cloudgate Game** (Qt/QML + SDL2 + C++ + Boost + HDF5) für die finale Abgabe.
 
 ## Projektüberblick
 
 Cloudgate ist ein 2D-Jump-and-Run mit:
 
-- Qt/QML Frontend (Menue, Levelauswahl, Character-Auswahl, Level-Editor)
+- Qt/QML Frontend (Menü, Levelauswahl, Character-Auswahl, Level-Editor)
 - SDL2-basierter Engine (Rendering, Input, Gameplay)
-- Physik ueber Box2D
+- Physik über Box2D
 - Leveldaten in XML + HDF5
 
 ## Wiki-Navigation
