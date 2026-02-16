@@ -14,17 +14,17 @@ Aufbau:
 
 # Grund-Workflow
 
-1. `LevelEditor` im Hauptmenue starten.
-2. Tile links auswaehlen.
+1. `LevelEditor` im Hauptmenü starten.
+2. Tile links auswählen.
 3. Auf der rechten Canvas platzieren.
 4. Mit `Save` speichern (XML + H5).
 
 # Bedienung
 
 - Linksklick auf Canvas: Tile setzen
-- Rechtsklick auf Canvas: Tile loeschen
-- Rahmen-Tiles (Rand) sind geschuetzt
-- Spawnbereich des Spielers (2x2 Feld unten links) ist geschuetzt
+- Rechtsklick auf Canvas: Tile löschen
+- Rahmen-Tiles (Rand) sind geschützt
+- Spawnbereich des Spielers (rotes 2x2 Feld unten links) ist geschützt
 
 # Tile-Sets
 
