@@ -42,15 +42,6 @@ Beim 1x2-Modus werden zusammengehoerende Tile-Paare gesetzt/entfernt.
 - `+ 5 Tile above`: fügt oben 5 Reihen hinzu
 - `- 5 Tile above`: entfernt oben Reihen (Minimum Höhe bleibt 25)
 
-## Hintergrund
-
-`Background` erlaubt die Auswahl eines Bildes aus:
-
-- `res/images/backgrounds/`
-
-Der Hintergrundpfad wird in XML als `background_path` gespeichert.
-Wenn weitere Bilder dem Ordner hinzugefügt werden, müssen diese ebenfalls in `res/assets.qrc` hinzugefügt werden, um verwendet werden zu können.
-
 ## Win-Condition und Scroll-Speed
 
 In der Top-Leiste:
@@ -61,16 +52,32 @@ In der Top-Leiste:
   - Coins (mit Wert)
   - Time (mit Sekundenwert)
 
-Beim Speichern wird bei Coin-Ziel der Wert auf maximal vorhandene Coins begrenzt.
+![level_editor_win_cons](uploads/029c2874b02e18ccf6f588c2171f40fd/level_editor_win_cons.png){width=158 height=63}
+
+Falls beim Coin-Ziel der eingetragene Wert höher als die Anzahl der im Level vorhandenen Coins eingestellt sein sollte, so wird er beim Speichern automatisch auf die im Level vorhandenen Coins begrenzt.
+
+
+## Hintergrund
+
+`Background` erlaubt die Auswahl eines Bildes aus:
+
+- `res/images/backgrounds/`
+
+![level_editor_menu](uploads/5ad94523fced5e794dacd63eea8887a3/level_editor_menu.png){width=258 height=198}
+
+Der Hintergrundpfad wird in XML als `background_path` gespeichert.
+Wenn weitere Bilder dem Ordner hinzugefügt werden, müssen diese ebenfalls in `res/assets.qrc` hinzugefügt werden, um verwendet werden zu können.
 
 ## Save/Load
 
-`Save` erzeugt:
+`Save` erzeugt die beiden folgenden Dateien:
 
 - `levelname.xml`
 - `levelname.h5`
 
-`Load` laedt:
+Bei `Load` wird die xml eines gespeicherten Levels ausgewählt und in den Leveleditor geladen.
+Dazu muss ebenso eine passende HDF5 (.h5) Datei im selben Ordner vorhanden sein.
+Die geladenen Daten teilen sich wie folgt auf:
 
-- XML-Metadaten (Goal, Tilegrößen, Hintergrund etc.)
-- HDF5-Daten (Tiles + Texturen)
+- XML-Metadaten: Goal, Tilegrößen, Hintergrund etc.
+- HDF5-Daten: Tiles + Texturen.
