@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 ## Hinzufügen neuer Level
 
 1. Erstelle eine neue `level.xml`-Datei im `res/`-Verzeichnis
