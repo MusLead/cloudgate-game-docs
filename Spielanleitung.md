@@ -1,6 +1,6 @@
 [[_TOC_]]
 
-# Menü
+# Hauptmenü
 
 Nach dem Start zeigt `Main.qml` drei Hauptpunkte:
 
