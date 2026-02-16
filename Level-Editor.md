@@ -1,5 +1,7 @@
 # Level-Editor
 
+[[_TOC_]]
+
 ## Überblick
 
 Der Editor ist in `qml/LevelEditor.qml` umgesetzt und wird von `LevelEditorController` gesteuert.
@@ -9,6 +11,8 @@ Aufbau:
 - Links: `TilesetPalette` (Tile-Auswahl)
 - Rechts: `LevelCanvas` (Level-Fläche)
 - Oben: Toolbar (Save/Load/Clear/Background/Rows/Goal/ScrollSpeed)
+
+![level_editor](uploads/8b1ba724408ba5c7ad608e5ef80fb740/level_editor.png){width=307 height=300}
 
 ## Grund-Workflow
 
