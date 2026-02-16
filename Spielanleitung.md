@@ -1,8 +1,6 @@
-# Spielanleitung
-
 [[_TOC_]]
 
-## Menü
+# Menü
 
 Nach dem Start zeigt `Main.qml` drei Hauptpunkte:
 
@@ -12,7 +10,7 @@ Nach dem Start zeigt `Main.qml` drei Hauptpunkte:
 
 ![title_screen](uploads/3fb2d5fe9f9f1cd2823e6dcff83bfd7a/title_screen.png){width=235 height=295}
 
-## Level starten
+# Level starten
 
 Klickt man im Hauptmenü auf den Punkt `Start`, so gelangt man zur Levelauswahl:
 
@@ -22,7 +20,7 @@ Dort werden alle Level angezeigt, welche unter dem Ordner `res/*.xml` zu finden 
 Klickt man nun den Namen eines Levels an, so wird das Spiel in `LevelStarter.qml` im `GameView` gestartet.
 
 
-### Steuerung im Spiel
+## Steuerung im Spiel
 
 - `Pfeil links/rechts`: Laufen
 - `Leertaste`: Springen
@@ -31,14 +29,14 @@ Klickt man nun den Namen eines Levels an, so wird das Spiel in `LevelStarter.qml
 - `P`: Pause
 - `ESC`: Zurück zur vorherigen Seite
 
-### Gegner
+## Gegner
 
 Im Spiel kann man Gegnern begegnen, wie bereits in Level Editor beschrieben.
 Berührt man einen Gegner, so erleidet der Spieler Rükstoß und verliert einen Lebenspunkt, repräsentiert durch dir Herzen in der oberen rechten Ecke des Bildschirms.
 
 ![enemies_and_taking_damage](uploads/ee2dd77bcd6a5077ffce15334fdf4384/enemies_and_taking_damage.png){width=235 height=295}
 
-### Ein Level abschließen
+## Ein Level abschließen
 
 Um ein Level erfolgreich abzuschließen, ist es immer nötig, ein offenes Tor am Ende zu erreichen.
 
@@ -59,7 +57,7 @@ Die für den Zieltyp "Coins" benötigten Münzen kann man unterhalb der Lebenspu
 
 ![coins](uploads/924c2bf4565c0bed82260c88fd24d51e/coins.png){width=235 height=295}
 
-### Game Over / Level Ende
+## Game Over / Level Ende
 
 Ein Game Over passiert durch folgende Bedingungen:
 
@@ -69,7 +67,7 @@ Ein Game Over passiert durch folgende Bedingungen:
 
 ![death_zone](uploads/825d56846a9b56fba74895c5e4b55f9d/death_zone.png){width=235 height=295}
 
-## Charakterauswahl
+# Charakterauswahl
 
 Wählt man im Menü `Characters` aus, so kommt man zur Charakterauswahl.
 
