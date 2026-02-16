@@ -1,8 +1,6 @@
-# Level-Editor
-
 [[_TOC_]]
 
-## Überblick
+# Überblick
 
 Der Editor ist in `qml/LevelEditor.qml` umgesetzt und wird von `LevelEditorController` gesteuert.
 
@@ -14,21 +12,21 @@ Aufbau:
 
 ![level_editor](uploads/8b1ba724408ba5c7ad608e5ef80fb740/level_editor.png){width=307 height=300}
 
-## Grund-Workflow
+# Grund-Workflow
 
 1. `LevelEditor` im Hauptmenue starten.
 2. Tile links auswaehlen.
 3. Auf der rechten Canvas platzieren.
 4. Mit `Save` speichern (XML + H5).
 
-## Bedienung
+# Bedienung
 
 - Linksklick auf Canvas: Tile setzen
 - Rechtsklick auf Canvas: Tile loeschen
 - Rahmen-Tiles (Rand) sind geschuetzt
 - Spawnbereich des Spielers (2x2 Feld unten links) ist geschuetzt
 
-## Tile-Sets
+# Tile-Sets
 
 Es gibt zwei Modi:
 
@@ -46,7 +44,7 @@ Dabei handelt es sich zur Zeit hauptsächlich um Tore und Gegner.
 
 ![level_editor_tiles_combined](uploads/fe1b09932b83d5a71e8c99619977595b/level_editor_tiles_combined.png){width=180 height=166}
 
-## Level-Höhe
+# Level-Höhe
 
 Die Höhe des Levels kann über das Menü erhöht oder verringert werden:
 
@@ -55,7 +53,7 @@ Die Höhe des Levels kann über das Menü erhöht oder verringert werden:
 
 ![level_editor_add_height](uploads/fb7ffe02401f61003028a3c60bd89112/level_editor_add_height.png){width=234 height=190}
 
-## Win-Condition und Scroll-Speed
+# Win-Condition und Scroll-Speed
 
 In der Top-Leiste:
 
@@ -70,7 +68,7 @@ In der Top-Leiste:
 Falls beim Coin-Ziel der eingetragene Wert höher als die Anzahl der im Level vorhandenen Coins eingestellt sein sollte, so wird er beim Speichern automatisch auf die im Level vorhandenen Coins begrenzt.
 
 
-## Hintergrund
+# Hintergrund
 
 `Background` erlaubt die Auswahl eines Bildes aus:
 
@@ -81,7 +79,7 @@ Falls beim Coin-Ziel der eingetragene Wert höher als die Anzahl der im Level vo
 Der Hintergrundpfad wird in XML als `background_path` gespeichert.
 Wenn weitere Bilder dem Ordner hinzugefügt werden, müssen diese ebenfalls in `res/assets.qrc` hinzugefügt werden, um verwendet werden zu können.
 
-## Save/Load
+# Save/Load
 
 `Save` erzeugt die beiden folgenden Dateien:
 
