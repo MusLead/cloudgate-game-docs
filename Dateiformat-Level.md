@@ -1,13 +1,13 @@
 # Dateiformat Level (XML/HDF5)
 
-## Ueberblick
+## Überblick
 
 Ein Level besteht aus zwei Dateien:
 
 - `name.xml` (Metadaten und Referenzen)
 - `name.h5` (Tiles und Texturen)
 
-Die XML-Datei enthaelt im Root-Tag:
+Die XML-Datei enthält im Root-Tag:
 
 ```xml
 <level resources="name.h5">
@@ -94,7 +94,7 @@ Wichtige Datasets:
 
 Das erlaubt `0` als "leer" im gespeicherten Grid.
 
-## Relevante Felder fuer Gameplay
+## Relevante Felder für Gameplay
 
 - `goal.type`: 0=None, 1=Coins, 2=Time
 - `goal.value`: Zielwert (Coins oder Sekunden)
