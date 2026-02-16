@@ -2,7 +2,7 @@
 
 # Hauptmenü
 
-Nach dem Start zeigt `Main.qml` drei Hauptpunkte:
+Nach dem Start zeigt `Main.qml` drei Menüpunkte zur Auswahl:
 
 - `Start`: Levelauswahl und Spielstart
 - `LevelEditor`: Editor zum Erstellen/Bearbeiten von Levels
