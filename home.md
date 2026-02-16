@@ -1,6 +1,6 @@
 # Cloudgate Game - Wiki
 
-Stand: 11.02.2026
+Stand: 16.02.2026
 
 ## Modul und Team
 
