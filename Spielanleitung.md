@@ -94,6 +94,7 @@ Wählt man im Startmenü die Option `LevelEditor` aus, so gelangt man zum [Level
 # Charakterauswahl
 
 Wählt man im Menü `Characters` aus, so kommt man zur Charakterauswahl.
+Dort kann man die Spielerfigur auswählen, welche in den Leveln verwendet werden soll.
 
 - Pfeile links/rechts wechseln die Figur.
 - Beim Zurückgehen (`Back`) wird der Character in allen `res/*.xml` Leveldateien aktualisiert.
