@@ -35,23 +35,27 @@ Im Spiel kann man Gegnern begegnen.
 
 Die zu findenden Arten sind der Geist und die Schlange (die mehr wie eine Gurke aussieht).
 
-Die Schlange bewegt sich von links nach rechts über den Boden, auf dem sie steht.
-
-![enemy_snake](uploads/c39253c006d10f2d4567646e3f522316/enemy_snake.png){width=156 height=102}
-
-Der Geist schwebt von links nach rechts durch die Luft.
-
-![enemy_ghost](uploads/50f4897856405c6c5269f7fbebefa065/enemy_ghost.png){width=369 height=288}
-
-Sobald er jedoch den Spieler bemerkt, fängt er an, ihn zu verfolgen.
-
-![enemy_ghost_chase](uploads/881886338b08cdc77e928dc85a44f0ed/enemy_ghost_chase.png){width=287 height=268}
-
-Glücklicherweise lässt er jedoch nach einiger Zeit auch wieder ab.
-
 Berührt man einen Gegner, so erleidet der Spieler Rückstoß und verliert einen Lebenspunkt, repräsentiert durch dir Herzen in der oberen rechten Ecke des Bildschirms.
 
 ![enemies_and_taking_damage](uploads/ee2dd77bcd6a5077ffce15334fdf4384/enemies_and_taking_damage.png){width=235 height=295}
+
+### Schlange
+
+Die Schlange bewegt sich lediglich von links nach rechts über den Boden, auf dem sie steht.
+
+![enemy_snake](uploads/c39253c006d10f2d4567646e3f522316/enemy_snake.png){width=235 height=175}
+
+### Geist
+
+Der Geist schwebt von links nach rechts durch die Luft.
+
+![enemy_ghost](uploads/50f4897856405c6c5269f7fbebefa065/enemy_ghost.png){width=235 height=190}
+
+Sobald er jedoch den Spieler bemerkt, fängt er an, ihn zu verfolgen.
+
+![enemy_ghost_chase](uploads/881886338b08cdc77e928dc85a44f0ed/enemy_ghost_chase.png){width=235 height=228}
+
+Glücklicherweise lässt er jedoch nach einiger Zeit auch wieder ab.
 
 ## Ein Level abschließen
 
