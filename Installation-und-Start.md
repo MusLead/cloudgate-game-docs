@@ -59,7 +59,7 @@ Hinweis: Je nach System kann die Binary in einem App-Bundle liegen.
 ## Typische Probleme
 
 1. Ressourcen fehlen beim Start:
-   `res/` muss im Build-Ordner verfuegbar sein.
+   `res/` muss im Build-Ordner verfügbar sein.
 2. QML-Module fehlen:
    fehlende `qml6-module-*` Pakete installieren.
 3. SDL/Rendering instabil auf Linux:
