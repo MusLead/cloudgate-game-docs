@@ -61,7 +61,7 @@ Glücklicherweise lässt er jedoch nach einiger Zeit auch wieder ab.
 
 Um ein Level erfolgreich abzuschließen, ist es immer nötig, ein offenes Tor am Ende zu erreichen.
 
-![door](uploads/0f6fcc0d8bd9d42c4cf97e8015e1aa7a/door.png){width=200 height=159}
+![door](uploads/0f6fcc0d8bd9d42c4cf97e8015e1aa7a/door.png){width=235 height=190}
 
 In den Leveldateien ist eine von drei Zieltypen definiert.
 Je nach Konfiguration können weitere Bedingungen nötig sein, um ein Level erfolgreich abzuschließen:
@@ -72,7 +72,7 @@ Je nach Konfiguration können weitere Bedingungen nötig sein, um ein Level erfo
 
 Sollte die Zielbedingung nicht erfüllt sein, bleibt das Tor geschlossen:
 
-![door_closed](uploads/8b85eb3c29131a6bcc1049b9958e59aa/door_closed.png){width=200 height=159}
+![door_closed](uploads/8b85eb3c29131a6bcc1049b9958e59aa/door_closed.png){width=235 height=190}
 
 Die für den Zieltyp "Coins" benötigten Münzen kann man unterhalb der Lebenspunkte des Spielers sehen (auch in Leveln mit anderen Zieltypen).
 
