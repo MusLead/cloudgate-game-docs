@@ -1,5 +1,7 @@
 # Spielanleitung
 
+[[_TOC_]]
+
 ## Menü
 
 Nach dem Start zeigt `Main.qml` drei Hauptpunkte:
