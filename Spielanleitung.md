@@ -51,7 +51,7 @@ Je nach Konfiguration können weitere Bedingungen nötig sein, um ein Level erfo
 
 Sollte die Zielbedingung nicht erfüllt sein, bleibt das Tor geschlossen:
 
-![door_closed](uploads/8b85eb3c29131a6bcc1049b9958e59aa/door_closed.png){width=127 height=100}
+![door_closed](uploads/8b85eb3c29131a6bcc1049b9958e59aa/door_closed.png){width=200 height=159}
 
 Die für den Zieltyp "Coins" benötigten Münzen kann man unterhalb der Lebenspunkte des Spielers sehen (auch in Leveln mit anderen Zieltypen).
 
