@@ -32,4 +32,4 @@ Cloudgate ist ein 2D-Jump-and-Run mit:
 - [Dateiformat Level (XML/HDF5)](Dateiformat-Level)
 - [Changelog](Changelog)
 - [Entwicklung](Entwicklung)
-- [Eigenleistung](Eigenleistung)
+- [Eigenleistungen](Eigenleistungen)
