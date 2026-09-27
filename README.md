@@ -23,13 +23,13 @@ Cloudgate ist ein 2D-Jump-and-Run mit:
 
 ## Wiki-Navigation
 
-- [Installation und Start](Installation-und-Start)
-- [Spielanleitung](Spielanleitung)
-- [Level-Editor](Level-Editor)
-- [Implementierte Features](Implementierte-Features)
-- [Technische Architektur](Technische-Architektur)
-- [Technische Implementierung](Technische-Implementierung)
-- [Dateiformat Level (XML/HDF5)](Dateiformat-Level)
-- [Changelog](Changelog)
-- [Entwicklung](Entwicklung)
-- [Eigenleistungen](Eigenleistungen)
+- [Installation und Start](/Installation-und-Start.md)
+- [Spielanleitung](/Spielanleitung.md)
+- [Level-Editor](/Level-Editor.md)
+- [Implementierte Features](/Implementierte-Features.md)
+- [Technische Architektur](/Technische-Architektur.md)
+- [Technische Implementierung](/Technische-Implementierung.md)
+- [Dateiformat Level (XML/HDF5)](/Dateiformat-Level.md)
+- [Changelog](/Changelog.md)
+- [Entwicklung](/Entwicklung.md)
+- [Eigenleistungen](/Eigenleistungen.md)
